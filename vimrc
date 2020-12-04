@@ -8,3 +8,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" highlight search pattern matches
+set hlsearch
+
