@@ -11,3 +11,6 @@ set expandtab
 " highlight search pattern matches
 set hlsearch
 
+" treat md extension as markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
