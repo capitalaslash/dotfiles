@@ -1,3 +1,5 @@
+colorscheme desert
+
 syntax on
 
 " remove trailing whitespaces on save
