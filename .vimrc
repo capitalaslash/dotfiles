@@ -1,4 +1,5 @@
 colorscheme desert
+set colorcolumn=88
 
 syntax on
 
@@ -9,6 +10,8 @@ autocmd BufWritePre * %s/\s\+$//e
 set tabstop=4
 set shiftwidth=4
 set expandtab
+" keep tabs when editing makefiles
+autocmd FileType make set noexpandtab
 
 " highlight search pattern matches
 set hlsearch
