@@ -1,3 +1,5 @@
 # collection of dotfiles for consistent environment across machines
 
-run `stow` to link all configuration files in the home directory.
+run `stow .` from the top directory of this repo to link all configuration files in the
+home directory.
+
